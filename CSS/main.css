@@ -1,0 +1,858 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+*{font-family: 'Noto Sans', sans-serif;}
+
+.mobile {display: none;}
+
+/* this is for navigation bar */
+.nav {width: 100%; display: flex; border-bottom: 1px solid #202124; box-shadow: 0.2px 0.2px 25px gainsboro;}
+.nav .hamburger {width: 25px; height: 25px; padding-top: 5px; display: flex; margin: auto; margin-left: 15px; display: none;}
+.nav .hamburger img {object-fit: contain; justify-content: center;}
+.nav .logo {width: 20%; padding-top: 10px; text-align: left; align-items: center;}
+.nav .logo .content {width: 100%; margin: auto; align-items: center;}
+.nav .logo .content img {object-fit: contain; padding-left: 10px; align-items: center;}
+.nav .logo .content a {text-decoration: none; color: gray; align-items: center; font-size: x-large;}
+.nav .nav-links {width: 40%; margin: auto; font-size: medium;}
+.nav .nav-links a {width: 100%; text-decoration: none; color: grey; justify-content: center; padding: 10px; ; margin: auto}
+
+.nav .buttons {width: 40%; padding: 25px; text-align: right;}
+.nav .buttons a {width: 100%;text-decoration: none; color: gray; padding: 20px;}
+.nav .buttons .signin-1 {color: #4285F4;}
+.nav .buttons .goto-drive {border: 1px solid gainsboro; padding: 8px; border-radius: 5px; text-decoration: none; color: #4285F4;}
+.nav .buttons .try-drive {border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: gainsboro;}
+
+
+/* This is for row1 */
+.row1 {width: 100%; display: flex; margin-top: 40px; justify-content: space-between}
+.row1 .texts {width: 45%; margin: auto; justify-content: center;}
+.row1 .text1 {width: 100%; font-size: larger; padding-top: 50px; color: #202124;}
+.row1 .text1 h1 {margin: auto; padding-left: 70px; color: #202124; font-weight: 200; font-size: 45px}
+.row1 .text1 p {margin: auto; padding-left: 70px;}
+.row1 .text1 .button {margin: auto; padding-left: 70px;}
+.row1 .text1 {font-size: x-large; padding-right: 100px; color: gray}
+.row1 img {object-fit: contain; width: 100%;}
+.row1 .img {width: 45%; margin: auto;}
+.row1 .button {display: flex; justify-content: space-between; text-decoration: none;}
+.row1 .button .try {border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: gainsboro;}
+.row1 .button .try a {text-decoration: none; color: gray;}
+.row1 .button .go-to {border: 1px solid gainsboro; padding: 8px; border-radius: 5px;text-decoration: none; color: #4285F4;}
+.row1 .text2 {width: 80%; display: flex; padding-top: 20px; padding-bottom: 20px; justify-content: space-evenly; font-size: medium;}
+.row1 .text2 a {color: #4285F4; text-decoration: none;}
+
+
+/* This is for Row 2 */
+.see {width: 100%; display: flex; border-top: 1px solid gainsboro; padding-top: 15px; justify-content: center;}
+.see a { color: gray; text-decoration: none; font-size: 20px}
+
+.row2 {width: 100%; display: flex; justify-content: center; }
+.row2 .texts {width: 45%; margin: auto; justify-content: center; padding-right: 55px;}
+.row2 .text2 {width: 100%; padding-top: 10%; ; text-decoration: none}
+.row2 .text2 h1 {width: 100%; text-decoration: none; color: #202124; font-weight: 400; font-size: 45px}
+.row2 .text2 p {width: 100%; color: gray; font-size: 18px}
+.row2 .img { width: 45%;}
+.row2 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+
+
+/* This is for Row 3 */
+.row3 {width: 100%; display: flex; justify-content: center;}
+.row3 .texts {width: 45%; margin: auto; justify-content: center;}
+.row3 .text3 {width: 100%; justify-content: space-between; padding-top: 10px; padding-left: 55px;}
+.row3 .text3 h1 {text-decoration: none; color: #202124; font-weight: 400; font-size: 45px}
+.row3 .text3 p {color: gray; font-size: 18px}
+.row3 .text3 .docs {text-decoration: none; color: blue;}
+.row3 .text3 .sheets {text-decoration: none; color: blue;}
+.row3 .text3 .slides {text-decoration: none; color: blue;}
+.row3 .img {width: 45%;}
+.row3 .img img {object-fit: contain; width: 100%; padding-right: 55px;}
+
+
+/* This is for Row 4 */
+.row4 {width: 100%; display: flex; justify-content: center;}
+.row4 .texts {width: 45%; margin: auto; align-items: center;}
+.row4 .text4 {width: 100%; justify-content: space-between; padding-top: 7px; color: #202124;}
+.row4 .text4 h1 {text-decoration: none; color: #202124; font-weight: 400; font-size: 45px}
+.row4 .text4 p {color: gray; font-size: 18px}
+.row4 .img {width: 45%; margin: auto;}
+.row4 .img img {object-fit: contain; width: 100%; }
+
+
+/* This is for Row 5 */
+.row5 {width: 100%; display: flex; justify-content: center;}
+.row5 .texts {width: 45%; margin: auto; align-items: center;}
+.row5 .text5 {width: 100%; padding-top: 10px; padding-left: 55px;}
+.row5 .text5 h1 {text-decoration: none; color: #202124; font-weight: 400; font-size: 45px}
+.row5 .text5 p {color: gray; font-size: 18px}
+.row5 .img { width: 45%;}
+.row5 .img img {width:100%; object-fit: contain; padding-right: 55px;}
+
+
+/* This is for row6 */
+.row6 {width: 80%; background-color: #F8F9FA; margin: auto; padding-bottom: 50px;}
+.row6 .col1 {width: 100%; padding-top: 5%;; justify-content: center; font-size: 25px;}
+.row6 .col1 h2 {width: 70%; text-decoration: none; text-align: center; margin: auto; color: #202124;}
+.row6 .col2 {width: 50%; display: flex; justify-content: center; padding: 65px; margin: auto;}
+.row6 .col2 img {padding-left: 4%; padding-right: 4%; justify-content: space-between;}
+
+.row6 .col3 .salesforce {width: 75%; margin: auto; padding-top: 50px;}
+.row6 .col3 img {width: 100%; padding: 0% 30%; object-fit: cover;}
+.row6 .col3 {width: 80%; background-color: white; justify-content: center; margin: auto; padding-bottom: 40px; box-shadow: 0.5px 0.5px 10px gainsboro;}
+.row6 .col3 .text6 {width: 80%; margin: auto; justify-content: center}
+.row6 .col3 h4 {text-decoration: none; color: gray; font-size: 25px; text-align: center;}
+.row6 .col3 a {text-decoration: none; color: blue; font-size: 15px; padding-left: 40%; padding-bottom: 50%;}
+
+
+/* This is for row7 */
+.row7 {width: 90%; justify-content: center; margin: auto; padding-bottom: 5%;}
+.row7 h1 {width: 100%; text-align: center; text-decoration: none; color: #202124; font-weight: 500; font-size: 35px;}
+
+
+/* This is for row8 */
+.row8 {width: 80%; margin-left: 50px; display: flex; justify-content: space-between;}
+
+.row8 .adobe {width: 23%; padding: 5px;}
+.row8 .adobe img {object-fit: contain; border: 1px solid gainsboro}
+
+.row8 .atlassian {width: 23%; padding: 5px}
+.row8 .atlassian img {object-fit: contain; border: 1px solid gainsboro}
+
+.row8 .autodesk {width: 23%; padding: 5px}
+.row8 .autodesk img {object-fit: contain; border: 1px solid gainsboro}
+
+.row8 .docusign {width: 23%; padding: 5px}
+.row8 .docusign img {object-fit: contain; border: 1px solid gainsboro}
+
+.row8 .salesforce {width: 23%; padding: 5px}
+.row8 .salesforce img {object-fit: contain; border: 1px solid gainsboro}
+
+.row8 .slack {width: 23%; padding: 5px}
+.row8 .slack img {object-fit: contain; border: 1px solid gainsboro}
+
+
+/* This is for row9 */
+.row9 {width: 100%; align-items: center}
+.row9 .text {margin: auto; padding-top: 40px;}
+.row9 .text h2 {width: 100%; text-align: center; text-decoration: none; color: #202124;}
+.row9 .text p {width: 100%; text-align: center; text-decoration: none; color: #202124;}
+
+
+/* This is for Icons row */
+.icons {width: 45%; display: flex; margin: auto; justify-content: center; padding-top: 15px;}
+
+.icons .docs {width: 10%; margin: auto; align-items: center}
+.icons .docs p {font-size: 10px; padding-left: 10px; color: gray;}
+.icons .docs img {object-fit: cover;}
+
+.icons .sheets {width: 10%; margin: auto; align-items: center; }
+.icons .sheets p {font-size: 10px; padding-left: 4px; color: gray;}
+.icons .sheets img {object-fit: cover;}
+
+.icons .slides {width: 10%; margin: auto; align-items: center;}
+.icons .slides p {font-size: 10px; padding-left: 4px; color: gray;}
+.icons .slides img {object-fit: cover;}
+
+.icons .forms {width: 10%; margin: auto; align-items: center;}
+.icons .forms p {font-size: 10px; padding-left: 7px; color: gray;}
+.icons .forms img {object-fit: cover;}
+
+.icons .keep {width: 10%; margin: auto; align-items: center;}
+.icons .keep p {font-size: 10px; padding-left: 7px; color: gray;}
+.icons .keep img {object-fit: cover;}
+
+.icons .sites {width: 10%; margin: auto; align-items: center;}
+.icons .sites p {font-size: 10px; padding-left: 6px; color: gray;}
+.icons .sites img {object-fit: cover;}
+
+.icons .drive {width: 10%; margin: auto; align-items: center;}
+.icons .drive p {font-size: 10px; padding-left: 5px; color: gray;}
+.icons .drive img {object-fit: cover;}
+
+.icons .gmail {width: 10%; margin: auto; align-items: center;}
+.icons .gmail p {font-size: 10px; padding-left: 4px; color: gray;}
+.icons .gmail img {object-fit: cover;}
+
+.icons .meet {width: 10%; margin: auto; align-items: center;}
+.icons .meet p {font-size: 10px; padding-left: 6px; color: gray;}
+.icons .meet img {object-fit: cover;}
+
+.icons .calendar {width: 10%; margin: auto; align-items: center;}
+.icons .calendar p {font-size: 10px; padding-left: 0px; color: gray;}
+.icons .calendar img {object-fit: cover;}
+
+.icons .chat {width: 10%; margin: auto; align-items: center;}
+.icons .chat p {font-size: 10px; padding-left: 7px; color: gray;}
+.icons .chat img {object-fit: cover;}
+
+
+/* This is the table section */
+.table {width: 80%; margin: auto; justify-content: center;}
+table, th, td {border: 1px solid gainsboro; border-collapse: collapse; padding: 2%; border-left: 0px;}
+.table th {font-size: 18px; justify-content: space-evenly; text-align: center; border-top: 0%; border-left: 0%}
+.table th a {text-decoration: none;}
+.table th h2 {color: #4285F4;}
+.table .line2 {display: flex; align-items: baseline;}
+.table img {object-fit: contain;}
+.table .col1 {text-align: left; font-size: 18px; color: #202124;}
+.table td {font-size: 18px; justify-content: center; text-align: center; color: #202124;}
+.table .go-to {border: 1px solid gainsboro; padding: 8px; border-radius: 5px; text-decoration: none; color: #4285F4;}
+.table .button {border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: gainsboro}
+.table .link {color: #4285F4; text-decoration: none;}
+.table .tick {color: #4285F4;}
+
+
+/* This is for row10 */
+.row10 {width: 90%; margin: auto; justify-content: center; padding-top: 5%; padding-bottom: 4%; border-bottom: 1px solid gainsboro;}
+.row10 h1 {width: 100%; text-align: center; color: #202124;}
+.row10 img {justify-content: center; object-fit: contain; margin-left: 45%; padding: 25px;}
+.row10 p {width: 45%; text-align: center; color: #202124; font-size: large; margin: auto;}
+.row10 a {width: 100%; text-align: center; text-decoration: none; color: #4285F4;}
+
+
+/* This is for row11 */
+.row11 {width: 100%;}
+.row11 h1 {width: 100%; text-align: center; color: #202124; padding-top: 7%; padding-bottom: 1%;}
+.row11 .links {width: 30%; display: flex; justify-content: space-evenly; padding: 2%; margin: auto;}
+.row11 a {text-decoration: none;}
+.row11 .links .go-to {border: 1px solid gainsboro; padding: 8px; border-radius: 5px; text-decoration: none;
+                      color: #4285F4 ;}
+.row11 .links .try {border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px;
+                    text-decoration: none; color: gainsboro;}
+
+
+/* This is for footer */
+.footer {width: 100%; background-color: #F8F9FA; padding: 2%;}
+.footer .top p {border-bottom: 1px solid gainsboro; padding-bottom: 3%;}
+.footer .bottom {width: 90%; display: flex;}
+.footer .bottom .col1 {width: 40%; display: flex; justify-content: space-evenly; margin-left: 2%; padding-top: 3%;}
+.footer .bottom .col1 a {text-decoration: none;}
+.footer .bottom .col2 {width: 40%; display: flex; justify-content: center; margin-left: 23%; padding-top: 3%; padding-left: 50px;}
+.footer .bottom .col2 a {text-decoration: none; text-align: left;}
+.footer .bottom .col2 p {color: #202124; text-align: right;}
+
+/* Homepage ends */
+
+
+/* Download Page Starts */
+
+/* Nav download starts */
+.hamburger {display: none;}
+.nav-download {width: 100%; display: flex; border-bottom: 1px solid #202124;}
+.nav-download .logo {width: 20%; padding-top: 10px; text-align: left;}
+.nav-download .logo .content {width: 100%; margin: auto; display: flex; align-items: center; justify-content: center;}
+.nav-download .logo .content img {object-fit: cover; padding-left: 10px;}
+.nav-download .logo .content a {text-decoration: none; color: gray; align-items: center; font-size: x-large;}
+.nav-download .nav-links {width: 60%; margin: auto; padding-left: 200px; justify-content: space-evenly;}
+.nav-download .nav-links a {width: 100%; text-decoration: none; color: grey; justify-content: space-evenly; padding: 15px; font-size: 20px; text-align: center;}
+
+.nav-download .buttons {width: 40%; padding: 25px; text-align: right;}
+.nav-download .buttons a {width: 100%;text-decoration: none; color: gray; padding: 20px;}
+.nav-download .buttons .signin-1 {color: #4285F4;}
+.nav-download .buttons .goto-drive {border: 1px solid gainsboro; padding: 8px; border-radius: 5px; text-decoration: none; color: #4285F4;}
+.nav-download .buttons .try-drive {border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: gainsboro;}
+
+
+/* This is for download row1 */
+.download-row1 {width: 100%; display: flex; margin-top: 40px; justify-content: space-between;}
+.download-row1 .text1 {font-size: larger; padding-top: 50px; color: #202124;}
+.download-row1 .text1 h1 {margin: auto; padding-left: 70px;}
+.download-row1 .text1 p {margin: auto; padding-left: 70px;}
+.download-row1 img {object-fit: cover; width: 75%; margin-left: 10%;}
+.download-row1 .button {display: flex; justify-content: space-between; text-decoration: none; width: 100%; padding-left: 0%; margin: auto;}
+.download-row1 .text1 p {margin: 0%;}
+.download-row1 .button .try {border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: gainsboro;}
+.download-row1 .button .try a {text-decoration: none; color: black;}
+.download-row1 .button .go-to {border: 1px solid gainsboro; padding: 8px; border-radius: 5px;text-decoration: none; color: #4285F4;}
+.download-row1 .text2 {width: 80%; display: flex; padding-top: 5%; padding-bottom: 5%; justify-content: space-evenly; font-size: medium;}
+.download-row1 .text2 a {color: #4285F4; text-decoration: none;}
+
+
+/* This is for download row2 */
+.download-row2 {width: 90%; margin: auto; justify-content: center; padding-top: 5%;;}
+.download-row2 h1 {width: 100%; text-align: center; color: #202124; font-size: 35px;}
+.download-row2 p {width: 100%; text-align: center; color: #202124; font-size: 15px;}
+.download-row2 a {width: 100%; text-align: center; text-decoration: none; color: #4285F4;}
+.downloadimg {width: 60%; justify-content: center; margin-left: 35%;}
+.downloadimg img {justify-content: space-between; object-fit: contain;}
+.lowlink p {width: 60%; text-align: center; text-decoration: none; color: #4285F4; margin: auto; padding-bottom: 250px;}
+.lowlink a {text-decoration: none; color: #4285F4;}
+
+
+/* This is for download footer */
+.footer {width: 100%; background-color: #F8F9FA; padding: 2%;}
+.footer .top {width: 95%; margin: auto;}
+.footer .top a {text-decoration: none; color: #4285F4;}
+.footer .top p {border-bottom: 1px solid gainsboro; padding-bottom: 3%;}
+.footer .bottom {width: 90%; display: flex;}
+.footer .bottom .col1 {width: 40%; display: flex; justify-content: space-evenly; margin-left: 2%; padding-top: 3%;}
+.footer .bottom .col1 a {text-decoration: none; color: #202124;}
+.footer .bottom .col2 {width: 40%; display: flex; justify-content: space-evenly; padding-top: 3%;}
+.footer .bottom .col2 a {text-decoration: none; text-align: left; color: #202124; font-weight: 700;}
+.footer .bottom .col2 p {color: #202124; text-align: right; color: #202124;}
+
+
+
+@media (max-width: 1024px) 
+{
+.nav {width: 100%; position: fixed; z-index: 1; background-color: white; height: 50px;}
+.nav .logo {width: 50%; margin-left: 2px; padding: 0%; justify-content: left;}
+.nav .desktop_view {display: none;}
+.nav .hamburger {display: flex; width: 10%; margin: 0%; margin-left: 10px; margin-top: 5px; padding-top: 5px;}
+.nav .hamburger img {width: 100%;}
+
+
+.row1 {width: 100%; display: block; margin: auto; justify-content: center;}
+.row1 .texts {width: 90%;}
+.row1 .text1 h1 {text-align: center; width: 100%;}
+.row1 .text1 .text2 {text-align: center; width: 40%; margin: auto; justify-content: center;}
+.row1 .text1 .text2 p {padding-left: 0px; margin: 0%}
+.row1 .text1 .text2 a {padding-left: 20px;}
+.row1 .text1 {text-align: center; width: 100%;}
+.row1 .button {display: block;}
+.row1 img {margin: auto; justify-content: center;}
+
+
+.row2 {width: 100%; margin: auto; justify-content: center; padding-top: 50px}
+.row2 .texts {width: 45%; margin: auto; font-size: 35%; padding-top: 0%;}
+.row2 .texts .text2 {padding-top: 0%;}
+.row2 .texts .text2 h1 {width: 100%; padding-top: 0%; font-size: 25px;}
+.row2 .texts .text2 p {width: 100%; padding-top: 0%;}
+.row2 .img {width: 50%; margin: auto;}
+.row2 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+
+
+.row3 {width: 100%; margin: auto; justify-content: center; padding-top: 50px}
+.row3 .texts {width: 45%; margin: auto; font-size: 35%; padding-top: 0%;}
+.row3 .texts .text3 {padding-top: 0%;}
+.row3 .texts .text3 h1 {width: 100%; padding-top: 0%; font-size: 25px;}
+.row3 .texts .text3 p {width: 100%; padding-top: 0%;}
+.row3 .img {width: 50%; margin: auto;}
+.row3 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+
+
+.row4 {width: 100%; margin: auto; justify-content: center; padding-top: 50px}
+.row4 .texts {width: 45%; margin: auto; font-size: 35%; padding-top: 0%;}
+.row4 .texts .text4 {padding-top: 0%;}
+.row4 .texts .text4 h1 {width: 100%; padding-top: 0%; font-size: 25px;}
+.row4 .texts .text4 p {width: 100%; padding-top: 0%;}
+.row4 .img {width: 50%; margin: auto;}
+.row4 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+
+
+.row5 {width: 100%; margin: auto; justify-content: center; padding-top: 50px}
+.row5 .texts {width: 45%; margin: auto; font-size: 35%; padding-top: 0%;}
+.row5 .texts .text5 {padding-top: 0%;}
+.row5 .texts .text5 h1 {width: 100%; padding-top: 0%; font-size: 25px;}
+.row5 .texts .text5 p {width: 100%; padding-top: 0%;}
+.row5 .img { width: 50%; margin: auto;}
+.row5 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+
+.row6 {width: 90%; background-color: #F8F9FA; margin: auto; padding-bottom: 50px;}
+.row6 .col1 {width: 100%; padding-top: 5%;; justify-content: center;}
+.row6 .col1 h2 {width: 80%; text-decoration: none; text-align: center; margin: auto; color: #202124; font-size: 40px; font-weight: 500;}
+.row6 .col2 {width: 90%; display: flex; justify-content: center; padding: 40px; margin: auto;}
+.row6 .col2 img {padding-left: 4%; padding-right: 4%; justify-content: space-between;}
+.row6 .col3 img {width: 100%; padding: 0% 30%;}
+.row6 .col3 {width: 100%; background-color: white; justify-content: center; margin: auto; padding-bottom: 40px; box-shadow: 0.5px 0.5px 10px gainsboro;}
+.row6 .col3 .text6 {width: 80%; margin: auto; justify-content: center}
+.row6 .col3 h4 {text-decoration: none; color: gray; font-size: 25px; text-align: center;}
+.row6 .col3 a {text-decoration: none; color: blue; font-size: 15px; padding-left: 40%; padding-bottom: 50%;}
+
+
+.row8 {width: 80%; margin: auto; justify-content: space-between;}
+.row8 .adobe {width: 20%; padding: 5px;}
+.row8 .adobe img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+.row8 .atlassian {width: 20%; padding: 5px}
+.row8 .atlassian img {object-fit: contain; border: 1px solid gainsboro; width: 100%;}
+.row8 .autodesk {width: 20%; padding: 5px}
+.row8 .autodesk img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+.row8 .docusign {width: 20%; padding: 5px}
+.row8 .docusign img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+.row8 .salesforce {width: 20%; padding: 5px}
+.row8 .salesforce img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+.row8 .slack {width: 20%; padding: 5px}
+.row8 .slack img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+
+
+.table {width: 90%; margin: auto; justify-content: center;}
+
+
+.row10 {width: 90%; margin: auto; justify-content: center; padding-top: 5%; padding-bottom: 4%; border-bottom: 1px solid gainsboro;}
+.row10 h1 {width: 100%; text-align: center; color: #202124;}
+.row10 img {justify-content: center; object-fit: contain; margin-left: 45%; padding: 25px;}
+.row10 p {width: 60%; text-align: center; color: #202124; font-size: large; margin: auto;}
+.row10 a {width: 100%; text-align: center; text-decoration: none; color: #4285F4;}
+
+
+.footer {width: 100%; background-color: #F8F9FA; padding: 2%;}
+.footer .top {width: 95%; margin: auto;}
+.footer .top a {text-decoration: none; color: #4285F4;}
+.footer .top p {border-bottom: 1px solid gainsboro; padding-bottom: 3%;}
+.footer .bottom {width: 100%; display: block;}
+.footer .bottom .col1 {width: 70%; display: flex; justify-content: space-between; padding-top: 3%;}
+.footer .bottom .col1 a {text-decoration: none; color: #202124;}
+.footer .bottom .col2 {width: 70%; display: flex; justify-content: left; padding-top: 3%; padding: 0%; margin: 0%; margin-top: 3%;}
+.footer .bottom .col2 a {text-decoration: none; text-align: left; color: #202124; padding-left: 25px;}
+.footer .bottom .col2 p {color: #202124; text-align: right; color: #202124; padding-left: 50px;}
+}
+
+@media (max-width: 768px)
+{
+    .mobile {display: block;}
+    .desktop {display: none;}
+
+    .nav {width: 100%;}
+    .nav .logo {width: 50%; margin-left: 2px; padding: 0%; justify-content: left;}
+    .nav .desktop_view {display: none;}
+    .nav .hamburger {display: flex; width: 10%; margin: 0%; margin-left: 10px; margin-top: 5px; padding-top: 5px;}
+    .nav .hamburger img {width: 100%;}
+    
+    
+    .row1 {width: 100%; display: block; margin: auto; justify-content: center; padding-top: 80px}
+    .row1 .texts {width: 100%;}
+    .row1 .text1 h1 {text-align: center;}
+    .row1 .text1 {text-align: center; width: auto;}
+    .row1 .text1 .text2 {text-align: center; width: 60%; margin: auto; justify-content: center;}
+    .row1 .text1 .text2 p {padding-left: 0px; margin: 0%}
+    .row1 .button {display: block;}
+    .row1 img {margin: auto; justify-content: center;}
+    
+    
+    .see {width: 80%; margin: auto; display: flex; border-top: 0.5px solid gainsboro; padding-top: 15px; justify-content: center;}
+    .see a { color: gray; text-decoration: none;}
+    .row2 {width: 90%; margin: auto; justify-content: center; padding-top: 15px; display: block;}
+    .row2 .texts {width: 100%; margin: auto; text-align: left;}
+    .row2 .text2 {width: 100%; padding-top: 0%;}
+    .row2 .texts .text2 h1 {width: 100%; font-weight: 300; font-size: 35px;}
+    .row2 .img {width: 95%; margin: auto;}
+    .row2 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+    
+    
+    .row3 {width: 100%; margin: auto; justify-content: center; padding-top: 15px; display: block;}
+    .row3 .texts {width: 100%; margin: auto; text-align: left;}
+    .row3 .text3 {width: 100%; padding-top: 0%;}
+    .row3 .text3 h1 {width: 100%; font-weight: 300; font-size: 35px;}
+    .row3 .img {width: 95%; margin: auto;}
+    .row3 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+
+
+    .row4 {width: 100%; margin: auto; justify-content: center; padding-top: 15px; display: block;}
+    .row4 .texts {width: 80%; margin: auto; text-align: left; margin: auto;}
+    .row4 .text4 {width: 100%; padding-top: 0%;}
+    .row4 .text4 h1 {width: 100%; font-weight: 300; font-size: 35px;}
+    .row4 .img {width: 95%; margin: auto;}
+    .row4 .img img {width:100%; object-fit: contain;}
+
+
+    .row5 {width: 100%; margin: auto; justify-content: center; padding-top: 15px; display: block;}
+    .row5 .texts {width: 100%; margin: auto; text-align: left;}
+    .row5 .text5 {width: 100%; padding-top: 0%;}
+    .row5 .text5 h1 {width: 100%; font-weight: 300; font-size: 35px;}
+    .row5 .img {width: 95%; margin: auto;}
+    .row5 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+
+    
+    .row6 {width: 90%; background-color: #F8F9FA; margin: auto; padding-bottom: 50px;}
+    .row6 .col1 {width: 100%; padding-top: 15px;; justify-content: center; ;}
+    .row6 .col1 h2 {width: 100%; text-decoration: none; text-align: center; margin: auto; color: #202124; font-size: 35px; font-weight: 400;}
+    .row6 .col2 {width: 70%; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); grid-gap: 30px; margin: auto;}
+    .row6 .col3 img {width: 100%; object-fit: contain;}
+    .row6 .col3 {width: 100%; background-color: white; justify-content: center; margin: auto; padding-bottom: 40px; box-shadow: 0.5px 0.5px 10px gainsboro;}
+    .row6 .col3 .text6 {width: 80%; margin: auto; justify-content: center}
+    .row6 .col3 h4 {text-decoration: none; color: gray; font-size: 25px; text-align: center;}
+    .row6 .col3 a {text-decoration: none; color: blue; font-size: 15px; padding-left: 40%; padding-bottom: 50%;}
+    
+
+    .row8 {width: 80%; margin: auto; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); grid-gap: 10px; display: grid;}
+    .row8 img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .adobe {width: 100%; padding: 5px;}
+    .row8 .adobe img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .atlassian {width: 100%; padding: 5px}
+    .row8 .atlassian img {object-fit: contain; border: 1px solid gainsboro; width: 100%;}
+    .row8 .autodesk {width: 100%; padding: 5px}
+    .row8 .autodesk img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .docusign {width: 100%; padding: 5px}
+    .row8 .docusign img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .salesforce {width: 100%; padding: 5px}
+    .row8 .salesforce img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .slack {width: 100%; padding: 5px}
+    .row8 .slack img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    
+    .icons {width: 70%; margin: auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));}
+    
+    
+    .table {width: 90%; margin: auto; justify-content: center;}
+    
+    
+    .row10 {width: 90%; margin: auto; justify-content: center; padding-top: 5%; padding-bottom: 4%; border-bottom: 1px solid gainsboro;}
+    .row10 h1 {width: 100%; text-align: center; color: #202124;}
+    .row10 img {justify-content: center; object-fit: contain; margin-left: 45%; padding: 25px;}
+    .row10 p {width: 60%; text-align: center; color: #202124; font-size: large; margin: auto;}
+    .row10 a {width: 100%; text-align: center; text-decoration: none; color: #4285F4;}
+    
+    
+    .row11 {width: 100%; margin: auto; justify-content: space-between;}
+
+    .row11 h1 {width: 100%; text-align: center; color: #202124; padding-top: 7%; padding-bottom: 1%;}
+    .row11 .links {width: 50%; display: flex; justify-content: space-evenly; padding: 2%; margin: auto;}
+    .row11 a {text-decoration: none;}
+
+
+    .footer {width: 100%; background-color: #F8F9FA; padding: 2%;}
+    .footer .top {width: 95%; margin: auto;}
+    .footer .top a {text-decoration: none; color: #4285F4;}
+    .footer .top p {border-bottom: 1px solid gainsboro; padding-bottom: 3%;}
+    .footer .bottom {width: 100%; display: block;}
+    .footer .bottom .col1 {width: 70%; display: flex; justify-content: space-between; padding-top: 3%;}
+    .footer .bottom .col1 a {text-decoration: none; color: #202124;}
+    .footer .bottom .col2 {width: 70%; display: flex; justify-content: left; padding-top: 3%; padding: 0%; margin: 0%; margin-top: 3%;}
+    .footer .bottom .col2 a {text-decoration: none; text-align: left; color: #202124; padding-left: 25px;}
+    .footer .bottom .col2 p {color: #202124; text-align: right; color: #202124; padding-left: 50px;}
+}
+
+@media (max-width: 425px)
+{
+    .mobile {display: block;}
+    .desktop {display: none;}
+
+    .nav {width: 100%;}
+    .nav .logo {width: 50%; margin-left: 2px; padding: 0%; justify-content: left;}
+    .nav .desktop_view {display: none;}
+    .nav .hamburger {display: flex; width: 10%; margin: 0%; margin-left: 10px; margin-top: 5px; padding-top: 5px;}
+    .nav .hamburger img {width: 100%;}
+    
+    
+    .row1 {width: 100%; display: block; margin: auto; justify-content: center;}
+    .row1 .texts {width: 100%;}
+    .row1 .text1 h1 {text-align: center; padding-left: 0%;}
+    .row1 .text1 p {text-align: center; padding-left: 0%;}
+    .row1 .text1 {text-align: center; width: 100%; padding: 0%;}
+    .row1 .text1 .button {width: 50%; display: block; margin: auto; justify-content: center; padding: 0%;}
+    .row1 .button .try {width: 70%; display: block; font-size: 15px; margin: auto; padding: 3px;}
+    .row1 .button .go-to {width: 70%; display: block; font-size: 15px; margin: auto; padding: 3px;}
+    .row1 img {margin: auto; justify-content: center;}
+    .row1 .text2 {display: block; margin: auto;}
+    
+    
+    .see {width: 80%; margin: auto; display: flex; border-top: 0.5px solid gainsboro; padding-top: 15px; justify-content: center;}
+    .see a { color: gray; text-decoration: none;}
+    .row2 {width: 90%; margin: auto; justify-content: center; padding-top: 15px; display: block;}
+    .row2 .texts {width: 100%; margin: auto; text-align: left;}
+    .row2 .text2 {width: 100%; padding-top: 0%;}
+    .row2 .texts .text2 h1 {width: 100%; font-weight: 300; font-size: 35px;}
+    .row2 .img {width: 95%; margin: auto;}
+    .row2 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+    
+    
+    .row3 {width: 100%; margin: auto; justify-content: center; padding-top: 15px; display: block;}
+    .row3 .texts {width: 100%; margin: auto; text-align: left;}
+    .row3 .text3 {width: 100%; padding-top: 0%;}
+    .row3 .text3 h1 {width: 100%; font-weight: 300; font-size: 35px;}
+    .row3 .img {width: 95%; margin: auto;}
+    .row3 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+
+
+    .row4 {width: 100%; margin: auto; justify-content: center; padding-top: 15px; display: block;}
+    .row4 .texts {width: 80%; margin: auto; text-align: left; margin: auto;}
+    .row4 .text4 {width: 100%; padding-top: 0%;}
+    .row4 .text4 h1 {width: 100%; font-weight: 300; font-size: 35px;}
+    .row4 .img {width: 95%; margin: auto;}
+    .row4 .img img {width:100%; object-fit: contain;}
+
+
+    .row5 {width: 100%; margin: auto; justify-content: center; padding-top: 15px; display: block;}
+    .row5 .texts {width: 100%; margin: auto; text-align: left;}
+    .row5 .text5 {width: 100%; padding-top: 0%;}
+    .row5 .text5 h1 {width: 100%; font-weight: 300; font-size: 35px;}
+    .row5 .img {width: 95%; margin: auto;}
+    .row5 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+
+    
+    .row6 {width: 90%; background-color: #F8F9FA; margin: auto; padding-bottom: 50px;}
+    .row6 .col1 {width: 100%; padding-top: 15px;; justify-content: center; ;}
+    .row6 .col1 h2 {width: 100%; text-decoration: none; text-align: center; margin: auto; color: #202124; font-size: 35px; font-weight: 400;}
+    .row6 .col2 {width: 70%; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); grid-gap: 30px; margin: auto;}
+    .row6 .col3 img {width: 100%; object-fit: contain;}
+    .row6 .col3 {width: 100%; background-color: white; justify-content: center; margin: auto; padding-bottom: 40px; box-shadow: 0.5px 0.5px 10px gainsboro;}
+    .row6 .col3 .text6 {width: 80%; margin: auto; justify-content: center}
+    .row6 .col3 h4 {text-decoration: none; color: gray; font-size: 25px; text-align: center;}
+    .row6 .col3 a {text-decoration: none; color: blue; font-size: 15px; padding-left: 40%; padding-bottom: 50%;}
+    
+
+    .row8 {width: 80%; margin: auto; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); grid-gap: 10px; display: grid;}
+    .row8 img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .adobe {width: 100%; padding: 5px;}
+    .row8 .adobe img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .atlassian {width: 100%; padding: 5px}
+    .row8 .atlassian img {object-fit: contain; border: 1px solid gainsboro; width: 100%;}
+    .row8 .autodesk {width: 100%; padding: 5px}
+    .row8 .autodesk img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .docusign {width: 100%; padding: 5px}
+    .row8 .docusign img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .salesforce {width: 100%; padding: 5px}
+    .row8 .salesforce img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .slack {width: 100%; padding: 5px}
+    .row8 .slack img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    
+    .icons {width: 90%; margin: 0%; display: grid; grid-template-columns: repeat(auto-fill, minmax(48px, 1fr)); text-align: center;}
+    .icons p {display: none;}
+    
+    
+    .table {width: 95%; margin: auto; justify-content: center;}
+    .table .head th {background-color: white; position: sticky; top: 50px;}
+    .table .go-to {padding: 8px; width: 100%;}
+    .table th .go-to {font-size: 12px;}
+    .table .button {font-size: 12px;}
+    .table .go-to p {width: 100%; text-align: center;}
+
+    .row10 {width: 90%; margin: auto; justify-content: center; padding-top: 5%; padding-bottom: 4%; border-bottom: 1px solid gainsboro;}
+    .row10 h1 {width: 100%; text-align: center; color: #202124;}
+    .row10 img {justify-content: center; object-fit: contain; margin-left: 40%; padding: 25px;}
+    .row10 p {width: 100%; text-align: center; color: #202124; font-size: large; margin: auto;}
+    .row10 a {width: 100%; text-align: center; text-decoration: none; color: #4285F4;}
+    
+    
+    .row11 {width: 100%; margin: auto; justify-content: space-between; padding-bottom: 25px;}
+
+    .row11 h1 {width: 100%; text-align: center; color: #202124; padding-top: 7%; padding-bottom: 1%;}
+    .row11 .links {width: 100%; display: flex; justify-content: space-evenly; padding: 2%; margin: auto;}
+    .row11 a {text-decoration: none;}
+
+
+    .footer {width: 100%; background-color: #F8F9FA; padding: 2%;}
+    .footer .top {width: 95%; margin: auto;}
+    .footer .top a {text-decoration: none; color: #4285F4;}
+    .footer .top p {border-bottom: 1px solid gainsboro; padding-bottom: 3%;}
+    .footer .bottom {width: 95%; display: block; margin: auto;}
+    .footer .bottom .col1 {width: 100%; display: flex; justify-content: space-between; padding-top: 3%; margin: auto;}
+    .footer .bottom .col1 a {text-decoration: none; color: #202124; font-size: 13px;}
+    .footer .bottom .col2 {width: 70%; display: flex; justify-content: left; padding-top: 3%; padding: 0%; margin: 0%; margin-top: 3%;}
+    .footer .bottom .col2 a {text-decoration: none; text-align: left; color: #202124; padding-left: 0; font-size: 13px;}
+    .footer .bottom .col2 p {color: #202124; text-align: right; color: #202124; padding-left: 50px; font-size: 13px;}
+}
+
+
+@media (max-width: 375px)
+{
+    .mobile {display: block;}
+    .desktop {display: none;}
+
+    .nav {width: 150%;}
+    .nav .logo {width: 50%; margin-left: 2px; padding: 0%; justify-content: left; padding-bottom: 8px;}
+    .nav .desktop_view {display: none;}
+    .nav .hamburger {display: flex; width: 10%; margin: 0%; margin-left: 10px; margin-top: 5px; padding-top: 5px;}
+    .nav .hamburger img {width: 100%;}
+    
+    
+    .row1 {width: 95%; display: block; margin: auto; justify-content: center;}
+    .row1 .texts {width: 100%; margin-left: 5px;}
+    .row1 .text1 h1 {text-align: center; padding-left: 2px;}
+    .row1 .text1 p {text-align: center; padding-left: 2px;}
+    .row1 .text1 {text-align: center; width: 100%; padding: 0%;}
+    .row1 .text1 .button {width: 70%; display: block; margin: auto; justify-content: center; padding: 0%;}
+    .row1 .button .try {width: 70%; display: block; font-size: 15px; margin: auto; padding: 3px;}
+    .row1 .button .go-to {width: 70%; display: block; font-size: 15px; margin: auto; padding: 3px;}
+    .row1 img {margin: auto; justify-content: center;}
+    .row1 .text2 {display: block; margin: auto;}
+    
+    
+    .see {width: 80%; margin: auto; display: flex; border-top: 0.5px solid gainsboro; padding-top: 15px; justify-content: center;}
+    .see a { color: gray; text-decoration: none; font-size: 15px;}
+    .row2 {width: 95%; margin: auto; justify-content: center; padding-top: 15px; display: block;}
+    .row2 .texts {width: 100%; margin: auto; text-align: left;}
+    .row2 .text2 {width: 100%; padding-top: 0%; padding-left: 25px;}
+    .row2 .texts .text2 h1 {width: 100%; font-weight: 300; font-size: 30px;}
+    .row2 .img {width: 120%; margin: auto;}
+    .row2 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+    
+    
+    .row3 {width: 95%; margin: auto; justify-content: center; padding-top: 15px; display: block;}
+    .row3 .texts {width: 100%; margin: auto; text-align: left;}
+    .row3 .text3 {width: 100%; padding-top: 0%;}
+    .row3 .text3 h1 {width: 100%; font-weight: 300; font-size: 35px;}
+    .row3 .img {width: 95%; margin: auto;}
+    .row3 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+
+
+    .row4 {width: 95%; margin: auto; justify-content: center; padding-top: 15px; display: block;}
+    .row4 .texts {width: 80%; margin: auto; text-align: left; margin: auto;}
+    .row4 .text4 {width: 100%; padding-top: 0%;}
+    .row4 .text4 h1 {width: 100%; font-weight: 300; font-size: 35px;}
+    .row4 .img {width: 95%; margin: auto;}
+    .row4 .img img {width:100%; object-fit: contain;}
+
+
+    .row5 {width: 95%; margin: auto; justify-content: center; padding-top: 15px; display: block;}
+    .row5 .texts {width: 100%; margin: auto; text-align: left;}
+    .row5 .text5 {width: 100%; padding-top: 0%;}
+    .row5 .text5 h1 {width: 100%; font-weight: 300; font-size: 35px;}
+    .row5 .img {width: 95%; margin: auto;}
+    .row5 .img img {width:100%; object-fit: contain; padding-left: 55px;}
+
+    
+    .row6 {width: 95%; background-color: #F8F9FA; margin: auto; padding-bottom: 50px;}
+    .row6 .col1 {width: 100%; padding-top: 15px;; justify-content: center; margin-left: 5px;}
+    .row6 .col1 h2 {width: 100%; text-decoration: none; text-align: center; margin: auto; color: #202124; font-size: 25px; font-weight: 400;}
+    .row6 .col2 {width: 70%; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); grid-gap: 30px; margin: auto;}
+    .row6 .col3 .salesforce {width: 100%; margin: auto; padding-top: 0%;}
+    .row6 .col3 .salesforce img {width: 100%; object-fit: contain;}
+    .row6 .col3 {width: 100%; background-color: white; justify-content: center; margin: auto; padding-bottom: 40px; box-shadow: 0.5px 0.5px 10px gainsboro;}
+    .row6 .col3 .text6 {width: 80%; margin: auto; justify-content: center}
+    .row6 .col3 h4 {text-decoration: none; color: gray; font-size: 20px; text-align: center;}
+    .row6 .col3 a {width: 50%; text-decoration: none; color: blue; font-size: 15px; padding-left: 35%; padding-bottom: 50%;}
+    
+    .row7 h1 {width: 95%; font-size: 25px;}
+
+    .row8 {width: 95%; margin: auto; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); grid-gap: 10px; display: grid;}
+    .row8 img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .adobe {width: 100%; padding: 5px;}
+    .row8 .adobe img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .atlassian {width: 100%; padding: 5px}
+    .row8 .atlassian img {object-fit: contain; border: 1px solid gainsboro; width: 100%;}
+    .row8 .autodesk {width: 100%; padding: 5px}
+    .row8 .autodesk img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .docusign {width: 100%; padding: 5px}
+    .row8 .docusign img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .salesforce {width: 100%; padding: 5px}
+    .row8 .salesforce img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    .row8 .slack {width: 100%; padding: 5px}
+    .row8 .slack img {object-fit: contain; border: 1px solid gainsboro; width: 100%}
+    
+    .icons {width: 95%; margin: auto; grid-template-columns: repeat(auto-fill, minmax(0px, 1fr)); grid-gap: 30px; display: grid;}
+    
+    /* {width: 90%; margin: 0%; display: grid; grid-template-columns: repeat(auto-fill, minmax(48px, 1fr)); text-align: center;} */
+    .icons p {display: none;}
+    
+    
+    .table {width: 95%; margin: auto; justify-content: center;}
+    .table .go-to {padding: 8px; width: 100%;}
+    .table th .go-to {font-size: 12px;}
+    .table .button {font-size: 12px;}
+    .table .go-to p {width: 100%; text-align: center;}
+
+    .row10 {width: 95%; margin: auto; justify-content: center; padding-top: 5%; padding-bottom: 4%; border-bottom: 1px solid gainsboro;}
+    .row10 h1 {width: 100%; text-align: center; color: #202124;}
+    .row10 img {justify-content: center; object-fit: contain; margin-left: 40%; padding: 25px;}
+    .row10 p {width: 100%; text-align: center; color: #202124; font-size: large; margin: auto;}
+    .row10 a {width: 100%; text-align: center; text-decoration: none; color: #4285F4;}
+    
+    
+    .row11 {width: 95%; margin: auto; justify-content: space-between; padding-bottom: 25px;}
+
+    .row11 h1 {width: 100%; text-align: center; color: #202124; padding-top: 7%; padding-bottom: 1%;}
+    .row11 .links {width: 100%; display: flex; justify-content: space-evenly; padding: 2%; margin: auto;}
+    .row11 a {text-decoration: none;}
+
+
+    .footer {width: 100%; background-color: #F8F9FA; padding: 0%; padding-top: 10px;}
+    .footer .top {width: 95%; margin: auto;}
+    .footer .top a {text-decoration: none; color: #4285F4;}
+    .footer .top p {border-bottom: 1px solid gainsboro; padding-bottom: 3%;}
+    .footer .bottom {width: 95%; display: block; margin: auto;}
+    .footer .bottom .col1 {width: 100%; display: flex; justify-content: space-between; padding-top: 3%; margin: auto;}
+    .footer .bottom .col1 a {text-decoration: none; color: #202124; font-size: 13px;}
+    .footer .bottom .col2 {width: 70%; display: flex; justify-content: left; padding-top: 3%; padding: 0%; margin: 0%; margin-top: 3%;}
+    .footer .bottom .col2 a {text-decoration: none; text-align: left; color: #202124; padding-left: 0; font-size: 13px;}
+    .footer .bottom .col2 p {color: #202124; text-align: right; color: #202124; padding-left: 50px; font-size: 13px;}
+}
+
+
+
+
+
+
+/* download page responsiveness starts here */
+
+@media (max-width: 1024px)
+{
+    .nav-download {width: 100%; position: fixed; z-index: 1; background-color: white; top: 0px; box-shadow: 0.2px 0.2px 25px gainsboro; align-items: center;}
+    .nav-download .logo {display: flex; width: 25%; padding-top: 0%; text-align: left; align-items: center;}
+    .nav-download .logo .content {width: 100%; margin: auto; align-items: center; display: flex;}
+    .nav-download .logo .content img {object-fit: cover; padding-left: 20px; height: 30px;}
+    .nav-download .logo .content a {text-decoration: none; color: gray; align-items: center; font-size: 20px; padding: 0%;}
+    .nav-download .nav-links {width: 60%; margin: auto; font-size: medium; padding-left: 70px;}
+    .nav-download .nav-links a {width: 100%; text-decoration: none; color: grey; justify-content: space-between; padding: 10px; font-size: 18px; margin: auto}
+
+    .nav-download .buttons {width: 40%; padding: 25px; text-align: right;}
+    .nav-download .buttons a {width: 100%;text-decoration: none; color: gray; padding: 20px;}
+    .nav-download .buttons .goto-drive {border: 1px solid gainsboro; padding: 8px; border-radius: 5px; text-decoration: none; color: #4285F4; font-size: 10px;}
+    .nav-download .buttons .try-drive {border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: gainsboro; font-size: 10px;}
+
+    .download-row1 {padding-top: 50px;}
+    .download-row1 .img {padding-top: 50px;}
+}
+
+@media (max-width: 768px)
+{
+    .mobile {display: flex;}
+    .hamburger {display: flex;}
+    .nav-download {position: fixed; z-index: 1; background-color: white; top: 0px; box-shadow: 0.2px 0.2px 25px gainsboro; align-items: center;}
+    .nav-download .logo {display: flex; width: 35%; text-align: left; align-items: center;}
+    .nav-download .logo .hamburger {width: 20%;}
+    .nav-download .logo .hamburger img {width: 100%; padding-left: 20px;}
+    .nav-download .logo .content {width: 100%; margin: auto; align-items: center; display: flex;}
+    .nav-download .logo .content img {object-fit: cover; padding-left: 20px; height: 40px;}
+    .nav-download .logo .content a {text-decoration: none; color: gray; align-items: center; font-size: 25px; padding: 0%;}
+    .nav-download .nav-links {width: 60%; margin: auto; font-size: medium;}
+    .nav-download .nav-links a {width: 100%; text-decoration: none; color: grey; justify-content: space-between; padding: 10px; font-size: 13px;; margin: auto}
+
+    .nav-download .buttons {width: 60%; padding: 25px; text-align: right;}
+    .nav-download .buttons a {width: 100%;text-decoration: none; color: gray; padding: 20px;}
+    .nav-download .buttons .goto-drive {border: 1px solid gainsboro; padding: 8px; border-radius: 5px; text-decoration: none; color: #4285F4; font-size: 15px;}
+    .nav-download .buttons .try-drive {border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: gainsboro; font-size: 15px;}
+
+    .download-row1 {padding-top: 50px; display: block;}
+    .download-row1 .text1 {padding-top: 0%; color: #202124;}
+    .download-row1 .text1 h1 {margin: auto; padding-left: 70px; font-size: 40px;}
+    .download-row1 .text1 p {margin: auto; padding-left: 70px; font-size: 20px;}
+    .download-row1 .button {display: flex; justify-content: space-between; text-decoration: none;}
+    .download-row1 .button .try {border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: gainsboro;}
+    .download-row1 .button .try a {text-decoration: none; color: black; background-color: #4285F4}
+    .download-row1 .button .go-to {border: 1px solid gainsboro; padding: 8px; border-radius: 5px;text-decoration: none; color: #4285F4;}
+    .download-row1 .text2 {width: 80%; display: flex; padding-top: 5%; padding-bottom: 5%; justify-content: space-evenly; font-size: medium;}
+    .download-row1 .text2 a {color: #4285F4; text-decoration: none;}
+
+/* This is for download row2 */
+    .download-row2 {width: 90%; margin: auto; justify-content: center; padding-top: 5%;;}
+    .download-row2 h1 {width: 100%; text-align: center; color: #202124; font-size: 35px;}
+    .download-row2 p {width: 100%; text-align: center; color: #202124; font-size: 15px;}
+    .download-row2 a {width: 100%; text-align: center; text-decoration: none; color: #4285F4;}
+    .downloadimg {width: 60%; justify-content: center; margin: auto;}
+    .downloadimg img {justify-content: space-between; object-fit: contain;}
+    .lowlink p {width: 60%; text-align: center; text-decoration: none; color: #4285F4; margin: auto; padding-bottom: 250px;}
+    .lowlink a {text-decoration: none; color: #4285F4;}
+}
+
+
+@media (max-width: 425px)
+{
+    .nav-download {position: fixed; z-index: 1; background-color: white; top: 0px; box-shadow: 0.2px 0.2px 25px gainsboro; align-items: center;}
+    .nav-download .logo {width: 50%; padding-top: 15px; text-align: left; align-items: center;}
+    .nav-download .logo .content {width: 100%; margin: auto; align-items: center;}
+    .nav-download .logo .content img {object-fit: cover; padding-left: 10px; height: 20px;}
+    .nav-download .logo .content a {text-decoration: none; color: gray; align-items: center; font-size: 18px;}
+
+    .nav-download .buttons {width: 50%; padding: 25px; text-align: right;}
+    .nav-download .buttons a {width: 100%;text-decoration: none; color: gray; padding: 20px;}
+    .nav-download .buttons .goto-drive {border: 1px solid gainsboro; padding: 8px; border-radius: 5px; text-decoration: none; color: #4285F4; font-size: 7px;}
+    .nav-download .buttons .try-drive {border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: gainsboro; font-size: 7px;}
+
+    .download-row1 {padding-top: 50px; display: block;}
+    .download-row1 .text1 {padding-top: 0%; color: #202124;}
+    .download-row1 .text1 h1 {margin: auto; padding-left: 70px; font-size: 40px;}
+    .download-row1 .text1 p {margin: auto; padding-left: 70px; font-size: 20px;}
+    .download-row1 .img {padding-top: 50px;}
+    .download-row1 .button {display: flex; justify-content: space-between; text-decoration: none;}
+    .download-row1 .button .try {border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: gainsboro;}
+    .download-row1 .button .try a {text-decoration: none; color: black; background-color: #4285F4}
+    .download-row1 .button .go-to {border: 1px solid gainsboro; padding: 8px; border-radius: 5px;text-decoration: none; color: #4285F4;}
+    .download-row1 .text2 {width: 80%; display: flex; padding-top: 5%; padding-bottom: 5%; justify-content: space-evenly; font-size: medium;}
+    .download-row1 .text2 a {color: #4285F4; text-decoration: none;}
+
+/* This is for download row2 */
+    .download-row2 {width: 90%; margin: auto; justify-content: center; padding-top: 5%;;}
+    .download-row2 h1 {width: 100%; text-align: center; color: #202124; font-size: 35px;}
+    .download-row2 p {width: 100%; text-align: center; color: #202124; font-size: 15px;}
+    .download-row2 a {width: 100%; text-align: center; text-decoration: none; color: #4285F4;}
+    .downloadimg {width: 100%; justify-content: space-around; margin: auto;}
+    .downloadimg img {justify-content: space-between; object-fit: contain;}
+    .lowlink p {width: 60%; text-align: center; text-decoration: none; color: #4285F4; margin: auto; padding-bottom: 250px;}
+    .lowlink a {text-decoration: none; color: #4285F4;}
+}
